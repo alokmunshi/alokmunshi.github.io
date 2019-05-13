@@ -2,6 +2,16 @@ body{
 background-image: url("new.jpg");
 }
 
+h1{
+  font-size: 300%;
+  color: white; 
+}
+p {
+  border-left: 6px solid blue;
+  font-size: 200%;;
+  color: yellow;
+
+}
 ul {
   list-style-type: none;
   margin: 0;
