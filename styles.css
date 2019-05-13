@@ -1,16 +1,82 @@
 body{
 background-image: url("new.jpg");
 }
-
 h1{
   font-size: 300%;
   color: white; 
 }
-p {
+p.index {
   border-left: 6px solid blue;
   font-size: 200%;;
   color: yellow;
+}
+div.about1 {
+  width: 600px;
+  border-left: 6px solid silver;
+  border-bottom: 6px solid silver;
+  color: tomato;
+  font-size: 200%;
+  text-align: left;
+  padding: 5px;
+  margin-left: 30px;
+}
+div.about2 {
+  width:1000px;
+  border-bottom: 6px solid silver;
+  border-right: 6px solid silver;
+  color: aqua;
+  font-size: 200%;
+  text-align: right;
+  padding: 5px;
+  margin-left: 300px;
+}
+div.interests1{
+  border-radius: 15px 50px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 100px; 
+  font-size: 200%;
+}
+div.interests2{
+  border-radius: 15px 50px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 100px; 
+  font-size: 200%;
+  margin-left: 250px;
+}
+div.interests3{
+  border-radius: 15px 50px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 100px; 
+  font-size: 200%;
+  margin-left: 500px;
+}
+div.interests4{
+  border-radius: 15px 50px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 100px; 
+  font-size: 200%;
+margin-left: 750px;
+}
+div.contact{
+  width: 100px;
+  height: 100px;
+  background: red;
+  -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s, height 4s;
+}
 
+div.contact:hover {
+  width: 600px;
+  height: 200px;
+  font-size: 200%;
 }
 ul {
   list-style-type: none;
@@ -19,11 +85,9 @@ ul {
   overflow: hidden;
   background-color: black;
 }
-
 li {
   float: left;
 }
-
 li a {
   display: block;
   color: white;
@@ -32,13 +96,11 @@ li a {
   padding: 14px 16px;
   text-decoration:none;
 }
-
 li a:hover:not(.active) {
   background-color: red;
   font-size: 25px;
   color: white;
 }
-
 .active {
   background-color: green;
 }
